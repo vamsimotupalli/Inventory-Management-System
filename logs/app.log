@@ -1,0 +1,13 @@
+2025-06-02 00:12:02 INFO  com.example.Service.OrderService - Order Saved in Orders Table
+2025-06-02 00:12:06 INFO  c.example.Service.InventoryComponent - Inventory fetched from DB and cached for productId: 2
+2025-06-02 00:12:06 INFO  com.example.Service.OrderComponent - Order Status Changed to PROCESSING
+2025-06-02 00:12:06 INFO  com.example.Component.OrderDelivery - Delivery successful for order ID: 2
+2025-06-02 00:12:06 INFO  c.example.Service.InventoryComponent - Reserved stock reduced after successful delivery for product ID: 2
+2025-06-02 00:12:06 INFO  com.example.Service.OrderComponent - Order Status Changed to COMPLETED
+2025-06-02 00:12:50 INFO  com.example.Service.OrderService - Order Saved in Orders Table
+2025-06-02 00:12:50 INFO  c.example.Service.InventoryComponent - Inventory fetched from Redis for productId: 2
+2025-06-02 00:12:50 INFO  c.example.Service.InventoryComponent - Inventory fetched from DB and cached for productId: 2
+2025-06-02 00:12:50 INFO  com.example.Service.OrderComponent - Order Status Changed to PROCESSING
+2025-06-02 00:12:50 INFO  com.example.Component.OrderDelivery - Delivery successful for order ID: 3
+2025-06-02 00:12:50 INFO  c.example.Service.InventoryComponent - Reserved stock reduced after successful delivery for product ID: 2
+2025-06-02 00:12:50 INFO  com.example.Service.OrderComponent - Order Status Changed to COMPLETED
