@@ -11,8 +11,11 @@
 	<groupId>com.example</groupId>
 	<artifactId>Inventory-Order-Management-System</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>Inventory-Order-Management-System</name>
 	<description>Demo project for Spring Boot</description>
+
+
 	<url/>
 	<licenses>
 		<license/>
@@ -20,6 +23,11 @@
 	<developers>
 		<developer/>
 	</developers>
+	<modules>
+		<module>Inventory</module>
+		<module>Order</module>
+		<module>Shared</module>
+	</modules>
 	<scm>
 		<connection/>
 		<developerConnection/>
@@ -34,10 +42,6 @@
 		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
